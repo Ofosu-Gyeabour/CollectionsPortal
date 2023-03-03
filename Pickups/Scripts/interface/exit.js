@@ -1,0 +1,1 @@
+Ext.get("exit").on("click",function(){Ext.MessageBox.confirm("Log Off?","Are you sure you want to log out of the system?",function(o){"yes"==o&&$.getJSON("/User/Logout",{},function(o){"true"==o.status.toString()?window.location="/":(console.log(o.msg.toString()),window.location="/")},"json")})});

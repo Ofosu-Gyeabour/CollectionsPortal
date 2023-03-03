@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Dash.master.cs" Inherits="Pickups.Views.Shared.Dash" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="app header-fixed sidebar-fixed aside-menu-fixed aside-menu-hidden">
+     <header>   
+        <ul class="nav navbar-nav d-md-down-none">
+
+            <li class="nav-item px-3">
+                <a class="nav-link" href="#"></a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="#"></a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="#"></a>
+            </li>
+        </ul>       
+    </header>
+    <div>
+        <asp:ContentPlaceHolder ID="DesktopBody" runat="server"></asp:ContentPlaceHolder>
+    </div>  
+</body>
+</html>
+

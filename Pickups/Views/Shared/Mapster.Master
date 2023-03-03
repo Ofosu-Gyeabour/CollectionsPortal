@@ -1,0 +1,17 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Mapster.master.cs" Inherits="Pickups.Views.Shared.Mapster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <asp:ContentPlaceHolder ID="Hd" runat="server"></asp:ContentPlaceHolder>
+    <link href="../../Scripts/ext/resources/css/mapCanvas.css" rel="stylesheet" />
+    
+    <script src="../../Scripts/Ext.ux.GMapPanel3.js"></script>
+</head>
+<body id="mapv1">      
+    <div>
+        <asp:ContentPlaceHolder ID="Mp" runat="server"></asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UI.master.cs" Inherits="Pickups.Views.Shared.UI" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+        <link href="../../Scripts/ext/resources/css/ext-all.css" rel="stylesheet" />
+        <link href="../../Content/htmleditorplugins.css" rel="stylesheet" />
+        <link href="../../Scripts/ext/resources/css/file-upload.css" rel="stylesheet" />
+        <link href="../../Scripts/ext/ux/css/RowEditor.css" rel="stylesheet" />
+
+        <script type="text/javascript" src="../../Scripts/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="../../Scripts/ext/ext-base-debug.js"></script>     
+        <script type="text/javascript" src="../../Scripts/ext/ext-all.js"></script>
+        <script src="../../Scripts/ext/FileUploadField.js"></script>
+        <script src="../../Scripts/ext/ux/RowEditor.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="DesktopBody" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

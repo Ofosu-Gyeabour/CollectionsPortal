@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Login.master.cs" Inherits="Pickups.Views.Shared.Login" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <link href="../../Content/Site.css" rel="stylesheet" />
+    <link href="../../Content/reset.css" rel="stylesheet" />
+    <link href="../../Content/structure.css" rel="stylesheet" />
+    <link href="../../Scripts/ext/resources/css/ext-all.css" rel="stylesheet" />
+
+    <script src="../../Scripts/ext/ext-all.js"></script>
+    <script src="../../Scripts/jquery-3.3.1.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <div>
+        <asp:ContentPlaceHolder ID="LoginPlaceHolder" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>
